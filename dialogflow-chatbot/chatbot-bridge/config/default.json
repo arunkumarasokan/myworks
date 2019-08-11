@@ -1,0 +1,23 @@
+{
+    "server": {
+        "host": "127.0.0.1",
+        "port": 6543
+    },
+    "orchestrator": {
+        "hostname": "platform.uipath.com",
+        "tenancyName": "ArunAWSTest",        "usernameOrEmailAddress":"arunkumar.asokan@yahoo.com.au",
+        "password": "Chennai@001"
+    },
+    "dialogflow": {
+        "token": "3f14feaaed834ac8bc701ded06499f54"
+    },
+    "log": {
+        "appenders": {
+            "console": {"type": "console"}
+        },
+        "categories": {
+            "default": {"appenders": ["console"], "level": "trace"}
+        },
+        "replaceConsole": true
+    }
+}
